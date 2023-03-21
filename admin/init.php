@@ -1,7 +1,7 @@
 <?php 
 //Start session
 session_start();
-
+// TEST
 //Add mess errors
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
