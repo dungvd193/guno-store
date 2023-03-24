@@ -15,7 +15,7 @@ function formatCurrency($number)
     return number_format($number, 0, ',', '.');
 }
 
-// Send mail
+// Send email
 function sendMail($to, $subject, $content)
 {
     // Instantiation and passing `true` enables exceptions
