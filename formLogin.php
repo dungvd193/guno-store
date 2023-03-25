@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="md-form mb-0">
-                <input type="text" name="username" required class="form-control">
+                <input type="text" name="username" required class="form-control"/>
                 <label  class="">Username</label>
             </div>
         </div>
@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="md-form mb-0">
-                <input type="password"  name="password" required class="form-control">
+                <input type="password"  name="password" required class="form-control"/>
                 <label  class="">Password</label>
             </div>
         </div>
