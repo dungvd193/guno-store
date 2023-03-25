@@ -1,18 +1,22 @@
-<?php require_once 'init.php';
-$title = "Tìm kiếm sản phẩm";
+<?php 
+    require_once 'init.php';
+    $title = "Tìm kiếm sản phẩm";
 
-if (isset($_GET["search"])) {
-    $search = $_GET["search"];
-}
-$products = getSearchProduct($search);
+    if (isset($_GET["search"])) 
+    {
+        $search = $_GET["search"];
+    }
+    $products = getSearchProduct($search);
 ?>
 
-<?php include 'header.php'; ?>
+<?php 
+    include 'header.php'; 
+?>
 <div id="content" class="mb-4">
     <div class="container pt-3">
         <!-- List product -->
         <div class="row prd1-right-box d-none d-md-block">
-            <img class="w-100 my-3" src="./assets/img/banner_productlist.jpg">
+            <img class="w-100 my-3" src="./assets/img/banner_productlist.jpg"/>
         </div>
         <div class="row prd1-right-items">
             <?php if ($products):?>
@@ -25,5 +29,9 @@ $products = getSearchProduct($search);
 			    </div>
             <?php endif; ?>            
         </div>
-        <!-- End list product -->
-        <?php include 'footer.php'; ?>
+    </div>
+</div>
+<!-- End list product -->
+<?php 
+    include 'footer.php'; 
+?>
